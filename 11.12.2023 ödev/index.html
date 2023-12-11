@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Samira Kılıç</title>
+    </head>
+    <body>
+        
+        <p id="x"></p> 
+        <p>Samira Kılıç</p>
+        <button onclick="z()">Buraya Tıkla</button>
+        <p id="islem"></p>  
+       
+        <p id="deneme">En güzel Renk Siyah</p>
+        <button type="button" onclick='document.getElementById("deneme").innerHTML="Sence Hangi Renk?"'>Buraya Tıkla!</button>
+
+        <p id="yazi">Yazıyı Görebiliyor Musun?</p>
+        <button type="button" onclick='document.getElementById("yazi").style.fontSize="50px"'>Yazıyı Büyüt!</button>
+
+
+        <script>
+            /*1*/
+    var x;
+    var y;
+    var z;
+    var m;
+
+    /*2*/
+    document.getElementById("x").innerHTML="Merhaba";
+    console.log("y");
+    function z(){
+        alert('Merhaba');
+    }
+
+
+
+
+
+
+
+    /*3*/
+    let kisi={
+        ad:"Samira",
+        soyad:"Kılıç",
+       medeni_durum:"Bekar",
+       ülke:"Almanya",
+       yas:19,
+    };
+
+
+
+
+    var myAge=19;
+    var yourAge=29;
+    console.log("consol", myAge);
+    console.log("consol", yourAge);
+
+
+
+    /*5*/
+    var s=5;
+    var e=10;
+    var Sonuc=(e+s)*15;
+    document.getElementById("islem").innerHTML=(s+e)*15;
+
+
+</script>
+
+</body>
+</html>
